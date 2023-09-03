@@ -1,11 +1,12 @@
 import time
 import itertools
 
-n = int(input())
-fear = list(map(int, input().split()))
+n = int(input()) # 모험가 수 입력
+fear = list(map(int, input().split())) #공포도 입력
 
 start_time = time.time()
 
+# 오름차순으로 정렬
 data = sorted(fear)
 
 result = 0
