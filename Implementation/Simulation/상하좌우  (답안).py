@@ -12,6 +12,7 @@ for plan in plans:
         if move_types[i] == plan:
             nx = x + mx[i]
             ny = y + my[i]
+    # nx, ny가 범위 초과시 continue
     if nx < 1 or ny < 1 or nx > n or ny > n:
         continue
     x = nx
