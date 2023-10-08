@@ -13,8 +13,8 @@ while True:
     for i in range(K):
         result += largest
         M -= 1
-    if M == 0:
-        break
+        if M == 0:
+            break
     result += second
     M -= 1
 
