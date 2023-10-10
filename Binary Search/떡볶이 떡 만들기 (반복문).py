@@ -13,6 +13,7 @@ while start <= end:
     if total < m:
         end = mid - 1
     else:
+# 높이 H의 최댓값을 구하는 문제이므로 가능한 마지막에 기록된 mid를 담아야하므로 else함수로 해도 되는 것
         result = mid
         start = mid + 1
 print(result)

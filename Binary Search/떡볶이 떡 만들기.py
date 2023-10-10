@@ -17,8 +17,8 @@ def binary_search(data, m, start, end):
         return binary_search(data, m, start, mid - 1)
     # 잘린 떡이 얻고자 하는 양보다 클 경우
     else:
-        binary_search(data, m, mid+1, end)
-        return mid
+        return binary_search(data, m, mid+1, end)
+    return mid
 n, m = map(int, input().split())
 data = list(map(int, input().split()))
 
